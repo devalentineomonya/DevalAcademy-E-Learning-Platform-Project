@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy | Upcoming Events</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/images/website-images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- 
+      ==============================
+      NAVIGATION SECTION
+      =============================== -->
+    <header>
+        <nav>
+            <div class="top-nav">
+                <div onclick="openSideMenu()" class="nav-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="nav-items">
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="members.html">Team</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="phone">
+                        <a href="tel:+254768133220">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+254768133220</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="back-to-previous">
+            <a href="#">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to course</span>
+            </a>
+        </div>
+        <section>
+            <div class="current-course-page">
+                <div class="current-course-info">
+                    <div class="course-featured-image">
+                        <img src="/images/website-images/header-home.png" alt="" width="100%">
+                    </div>
+                    <div class="event-tab-page-tab-buttons">
+                        <button class="tab-page-btn current" onclick="openTab(event, 'overview')">Overview</button>
+                        <button class="tab-page-btn" onclick="openTab(event, 'discussion')">Discussion</button>
+                        <button class="tab-page-btn" onclick="openTab(event, 'resources')">Resources</button>
+                        <button class="tab-page-btn" onclick="openTab(event, 'agenda')">Agenda</button>
+                    </div>
+                    <div class="course-tab-content">
+
+                        <div id="overview" class="tabcontent active course-overview">
+                            <p>
+                                Learn all of the skills, tools, and processes you need to become a UX designer.
+                                UX is a satisfying job if you're curious about human behavior and passionate about how
+                                design shapes the products and experiences around you. UX designer was rated in Career
+                                Karma's top 25 tech jobs in 2021. As a UX designer, you'll have the opportunity to work
+                                for
+                                startups, agencies, large corporates, on a freelance basis, or even remotely.
+                            </p>
+                        </div>
+
+
+                        <div id="discussion" class="tabcontent course-discussion">
+                            <p>
+                                Writing is expression of language in form of symbols (letters, words and sentences) on a
+                                surface. The primary purpose of writing is communication. Writing is a life-long skill
+                                that when used clearly can help you express ideas convincingly to others and can
+                                determine your success at the university and professional life. Writing takes different
+                                forms. Based in its length or purpose, it may be in the form of a single paragraph, an
+                                essay, a short paper, a report, a letter, a memo etc.
+                            </p>
+                        </div>
+
+                        <div id="resources" class="tabcontent course-resources">
+                            <p>
+                                Whatever the form of writing, effective writing involves the proper use of words,
+                                sentences, punctuations and paragraphs to pass across messages. In most of the writing
+                                you will engage in at the university, the paragraph constitutes a very important
+                                building block. It is in this regard that we shall turn to this unit of writing in the
+                                next section.
+                                Paragraph writing
+
+                            </p>
+                        </div>
+
+                        <div id="agenda" class="tabcontent course-agenda">
+                            <p>
+                                LParagraphs are important building blocks in the writing of essays. A paragraph usually
+                                contains one main idea captured in a sentence, with about four to eight supporting
+                                sentences which expand the main idea by giving explanation, details and/or examples to
+                                support the main idea of the paragraph. The length of a paragraph may vary from one form
+                                of writing to another or by the idea one is expounding on. A paragraph can be part of a
+                                longer piece of writing, as it is in an essay, or it can stand alone as in an exam
+                                answer.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-text">
+
+                            <ul class="faq-text">
+                                <li>
+                                    <div class="question-arrow">
+                                        <span class="question">Introduction</span>
+                                        <i class="fa-solid fa-chevron-down arrow"></i>
+                                    </div>
+                                    <p>This course will take you through eight tasks leading up to one main project:
+                                        user research, personas, wireframes and more for a vocabulary learning app. A
+                                        learning experience that’s as rigorous and in sync with the industry as it is
+                                        suited to beginners and upskillers alike.</p>
+                                    <span class="line"></span>
+                                </li>
+                                <li>
+                                    <div class="question-arrow">
+                                        <span class="question">Assets and documentation</span>
+                                        <i class="fa-solid fa-chevron-down arrow"></i>
+                                    </div>
+                                    <p>Introduction video</p>
+                                    <p>Presentation slide</p>
+                                    <p>Guide book</p>
+                                    <p>Section Quiz</p>
+                                    <span class="line"></span>
+                                </li>
+                                <li>
+                                    <div class="question-arrow">
+                                        <span class="question">Course chapters</span>
+                                        <i class="fa-solid fa-chevron-down arrow"></i>
+                                    </div>
+                                    <p>Introduction to UX & Design Thinking</p>
+                                    <p>Presenting Your Work</p>
+                                    <p>User Research</p>
+                                    <p>User Personas</p>
+                                    <p>Wireframing & Prototyping</p>
+                                    <p>Usability Testing</p>
+                                    <p>Presenting Your Work</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="enrolled-members">
+                    <p class="members-count">Class Members <span>(3)</span></p>
+                    <div class="members-card">
+                        <div class="members-image">
+                            <img src="/images/uploaded-images/profiles/profile.png"
+                                alt="" width="50">
+                        </div>
+                        <div class="members-name">
+                            <p>Valentine Omonya</p>
+                            <span>valomosh254@gmail.com</span>
+
+                        </div>
+                        <div class="members-role">
+                            <span>Lecturer</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="members-card">
+
+                        <div class="members-image">
+                            <img src="/images/uploaded-images/profiles/profile.png"
+                                alt="" width="50">
+                        </div>
+                        <div class="members-name">
+                            <p>Valentine Omonya</p>
+                            <span>valomosh254@gmail.com</span>
+
+                        </div>
+                        <div class="members-role">
+                            <span>Lecturer</span>
+                        </div>
+                    </div>
+
+
+                    <div class="members-card">
+                        <div class="members-image">
+                            <img src="/images/uploaded-images/profiles/profile.png"
+                                alt="" width="50">
+                        </div>
+                        <div class="members-name">
+                            <p>Valentine Omonya</p>
+                            <span>valomosh254@gmail.com</span>
+
+                        </div>
+                        <div class="members-role">
+                            <span>Lecturer</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+    </main>
+    <!--============================
+   FOOTER SECTION
+   ============================ -->
+    <footer id="footer" class="footer">
+        <div class="copyright">
+            <p> © Copyright <strong>Deval Academy</strong>. All Rights Reserved</p>
+        </div>
+
+        <div class="credits">
+            <p> Designed by <a href="https://youtube.com/@devalentineomonya" target="_blank">Valentine Omonya</a></p>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script>
+ let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+        li[i].addEventListener("click", (e) => {
+            let clickedLi;
+            if (e.target.classList.contains("question-arrow")) {
+                clickedLi = e.target.parentElement;
+            } else {
+                clickedLi = e.target.parentElement.parentElement;
+            }
+
+            // Close all accordions
+            li.forEach(item => {
+                if (item !== clickedLi) {
+                    item.classList.remove("active");
+                }
+            });
+
+            // Toggle the clicked accordion
+            clickedLi.classList.toggle("active");
+        });
+    }
+
+    </script>
+</body>
+
+</html>

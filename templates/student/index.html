@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/student.css">
+    <link rel="shortcut icon" href="/images/website-images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Welcme back <span>Valentine</span></title>
+</head>
+
+<body>
+    <!--==============================
+      NAVIGATION SECTION
+      =============================== -->
+    <header>
+        <nav>
+
+            <div class="top-nav">
+                <div onclick="openSideMenu()" class="nav-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="nav-items">
+                    <div class="nav-icons">
+                        <div class="nav-icons-item">
+                            <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+                        <div class="nav-icons-item">
+                            <i class="fas fa-calendar-alt    "></i>
+                        </div>
+                        <div class="nav-icons-item">
+                            <i class="fas fa-bell    "></i>
+
+                        </div>
+                        <div id="showDropdown" onclick="showDropdownMenu() " class="nav-icons-item">
+                            <div class="user-image">
+                                <img src="/images/uploaded-images/profiles/profile.png" alt="">
+
+                            </div>
+                            <div class="user-dropdown">
+                                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="userDropdown" class="user-menu-popup">
+                <div class="upper-section">
+                    <div class="image">
+                        <img src="/images/uploaded-images/profiles/profile.png" alt="">
+                    </div>
+                    <div class="name">
+                        <span>Valentine Omonya</span>
+                        <a href="#">View Profile</a>
+                    </div>
+                </div>
+                <div class="central-section">
+                    <a href="#">Dashboard</a>
+                    <a href="#">Calendar</a>
+                    <a href="#">Settings</a>
+                </div>
+                <div class="lower-section">
+                    <a href="#">Log Out</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <aside>
+        <div class="upper-section">
+            <div class="search">
+                <div class="side-btn">
+                    <i class="fas fa-search"></i>
+                    <input type="search" name="search" id="" placeholder="Search" autocomplete="off">
+                </div>
+            </div>
+        </div>
+        <div class="central-section">
+            <div class="dashboard">
+                <div class="side-btn">
+                    <a href="#">
+                        <i class="fas fa-home    "></i>
+                        <span>Dashboard</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="courses">
+                <div class="side-btn">
+                    <a href="#">
+                        <i class='bx bxs-grid-alt'></i>
+                        <span>Courses</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="assignments">
+                <div class="side-btn">
+                    <a href="#">
+                        <i class="fa-solid fa-clipboard-list"></i>
+                        <span>Assignments</span>
+                        <span class="counter">3</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="calendar">
+                <div class="side-btn">
+                    <a href="#">
+                        <i class="fas fa-calendar-alt    "></i>
+                        <span>Calendar</span>
+                    </a>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="accordion">
+                    <div class="accordion-text">
+
+                        <ul class="faq-text">
+                            <li>
+                                <div class="side-btn question-arrow">
+
+                                    <span class="question"><i class="fa-solid fa-folder-minus"></i> Projects</span>
+                                    <i class="fa-solid fa-chevron-down arrow"></i>
+                                </div>
+                                <div class="user-projects">
+                                    <a href="#">
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                        <span>Project 1</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                        <span>Project 2</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-solid fa-clipboard-list"></i>
+                                        <span>Project 3</span>
+                                    </a>
+                                </div>
+                            </li>
+                    </div>
+                </div>
+            </div>
+            <div class="analysis">
+                <div class="side-btn">
+                    <a href="#">
+                        <i class=" fas fa-chart-pie "></i>
+
+                        <span>Analysis</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="lower-section">
+            <div class="stared">
+                <div class="side-btn">
+                    <a href="#">
+                        <i class="fas fa-star"></i>
+                        <span>Stared</span>
+                    </a>
+                </div>
+                <div class="lower-section-end">
+                    <div class="user">
+                        <div class="side-btn">
+                            <a href="#">
+                                <i class="fas fa-user    "></i>
+                                <span>User</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="settings">
+                        <div class="side-btn">
+                            <a href="#">
+                                <i class="fa-solid fa-gear"></i>
+                                <span>Settings</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </aside>
+
+    <script src=" /js/script.js"></script>
+    <script>
+        let li = document.querySelectorAll(".faq-text li");
+        for (var i = 0; i < li.length; i++) {
+            li[i].addEventListener("click", (e) => {
+                let clickedLi;
+                if (e.target.classList.contains("question-arrow")) {
+                    clickedLi = e.target.parentElement;
+                } else {
+                    clickedLi = e.target.parentElement.parentElement;
+                }
+
+                // Close all accordions
+                li.forEach(item => {
+                    if (item !== clickedLi) {
+                        item.classList.remove("active");
+                    }
+                });
+
+                // Toggle the clicked accordion
+                clickedLi.classList.toggle("active");
+            });
+        }
+
+    </script>
+</body>
+
+</html>
