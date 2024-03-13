@@ -115,7 +115,7 @@ HERO SECTION
 */
 .hero,
 .events-hero {
-  background-image: url("images/website-images/header-home.png");
+  background-image: url("../images/website-images/header-home.png");
   height: 500px;
 
   background-position: center;
@@ -130,7 +130,7 @@ main {
 }
 
 .events-hero {
-  background-image: url("images/website-images/header-events.png");
+  background-image: url("../images/website-images/header-events.png");
   height: 550px;
 }
 
