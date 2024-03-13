@@ -2,406 +2,449 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academy | Upcoming Events</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Academy | Upcoming Events</title>
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 </head>
 
 <body>
-    <!-- 
+   <!-- 
       ==============================
       NAVIGATION SECTION
       =============================== -->
-    <header>
-        <nav>
-            <div class="top-nav">
-                <div onclick="openSideMenu()" class="nav-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <div class="nav-items">
-                    <div class="nav-links">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="events.html">Events</a></li>
-                            <li><a href="members.html">Team</a></li>
-                            <li><a href="about.html">About</a></li>
-                        </ul>
-                    </div>
-                    <div class="phone">
-                        <a href="tel:+254768133220">
-                            <i class="fa-solid fa-phone"></i>
-                            <span>+254768133220</span>
-                        </a>
-                    </div>
-                </div>
+   <header>
+      <nav>
+         <div class="top-nav">
+            <div onclick="openSideMenu()" class="nav-menu">
+               <i class="fa-solid fa-bars"></i>
             </div>
-        </nav>
-    </header>
-    <!-- 
-=============================
-ABOUT HERO SECTION
-============================= -->
-
-    <main>
-        <section>
-            <div class="about-hero">
-                <div class="about-hero-left">
-                    <h1>Learn from anywhere <br>in the world</h1>
-                    <p>Our platform offers learning to student all over the world. We offer courses in different fields
-                        in
-                        tech including machine learning web development deep learning mobile development payment
-                        stripping
-                        SQl and SQL injection and cyber security. Our top lecturers have deep knowledge in programming
-                        languages like Java Javascript Python swift kotlin C++ C# PHP and many more Join use today.
-                    </p>
-                    <a href="#">Start Now</a>
-                </div>
-                <div class="about-hero-right">
-                    <div class="image">
-                        <img src="images/uploaded-images/profiles/profile.png"
-                            alt="">
-                    </div>
-                    <div class="spot1">
-
-                    </div>
-                    <div class="spot2">
-
-                    </div>
-                    <div class="spot3">
-
-                    </div>
-                </div>
+            <div class="nav-items">
+               <div class="nav-links">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="events.html">Events</a></li>
+                     <li><a href="members.html">Team</a></li>
+                     <li><a href="about.html">About</a></li>
+                  </ul>
+               </div>
+               <div class="phone">
+                  <a href="tel:+254768133220">
+                     <i class="fa-solid fa-phone"></i>
+                     <span>+254768133220</span>
+                  </a>
+               </div>
             </div>
-        </section>
-        <section>
-            <div class="collaborators">
-                <p>Our collaborators</p>
-                <div class="collaborators-icons">
-                    <i class="fas fa-spotify"></i>
-                    <i class="fas fa-apple"></i>
-                    <i class="fas fa-google"></i>
-                    <i class="fas fa-facebook"></i>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <!-- 
+         =========================
+         EVENTS HERO SECTION
+         ========================= -->
 
-                </div>
-            </div>
-        </section>
-        <section>
+      <section>
+         <div class="events-hero">
+            <div class="event-hero-grid">
+               <div class="events-hero-left">
+                  <p>Go even further <br>than you ever <br>dreamed.</p>
+               </div>
+               <div class="wrapper">
+                  <i id="left" class="fa-solid fa-angle-left"></i>
+                  <ul class="carousel">
 
-            <div class="discovery-section">
-                <div class="card">
-                    <img src="images/uploaded-images/course.png" alt="">
-                    <div class="card-content">
-                        <p>Courses</p>
-                        <p>The courses we offer are apporved and they cover all the concept form basic to advanced. It
-                            also provides students with an easy way to get started in a new course</p>
-                        <a href="view-more.html">Discover Courses</a>
-                    </div>
-                </div>
+                     <li class="card">
+                        <p>EVENT</p>
+                        <P>Congnitive Development beyond 60</P>
+                        <span>June 15 - 20th</span>
+                        <span>Face-to-face</span>
+                        <a href="#">Enroll Today</a>
+                     </li>
 
-                <div class="card">
-                    <img src="images/uploaded-images/course.png" alt="">
-                    <div class="card-content">
-                        <p>Members</p>
-                        <p>The courses we offer are apporved and they cover all the concept form basic to advanced. It
-                            also provides students with an easy way to get started in a new course</p>
-                        <a href="view-more.html">Discover Members</a>
-                    </div>
-                </div>
+                  </ul>
+                  <i id="right" class="fa-solid fa-angle-right"></i>
+               </div>
 
-                <div class="card">
-                    <img src="images/uploaded-images/course.png" alt="">
-                    <div class="card-content">
-                        <p>Events</p>
-                        <p>The courses we offer are apporved and they cover all the concept form basic to advanced. It
-                            also provides students with an easy way to get started in a new course</p>
-                        <a href="view-more.html">Discover Events</a>
-                    </div>
-                </div>
 
-                <div class="card">
-                    <img src="images/uploaded-images/course.png" alt="">
-                    <div class="card-content">
-                        <p></p>
-                        <p>The courses we offer are apporved and they cover all the concept form basic to advanced. It
-                            also provides students with an easy way to get started in a new course</p>
-                        <a href="view-more.html">Discover Events</a>
-                    </div>
-                </div>
 
             </div>
-        </section>
+         </div>
 
-        <section>
-            <div class="services-section">
-                <div class="services-title-section">
-                    <p>What We Offer</p>
-                </div>
-                <div class="services-body">
-                    <table>
-                        <thead>
-                            <tr>
-
-                                <th></th>
-                                <th>Our Service</th>
-                                <th>Description</th>
-                                <th></th>
-
-                            </tr>
-
-                        </thead>
-
-                        <tbody>
-
-                            <tr>
-                                <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt="">
-                                </td>
-                                <td>Courses</td>
-                                <td>The courses we offer are apporved and they cover all the concept form basic to
-                                    advanced. It
-                                    also provides students with an easy way to get started in a new course
-                                </td>
-                                <td>
-                                    <a href="view-more.html">View More</a>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt="">
-                                </td>
-                                <td>Workshops</td>
-                                <td>The courses we offer are apporved and they cover all the concept form basic to
-                                    advanced. It
-                                    also provides students with an easy way to get started in a new course
-                                </td>
-                                <td>
-                                    <a href="view-more.html">View More</a>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt="">
-                                </td>
-                                <td>Guided projects</td>
-                                <td>The courses we offer are apporved and they cover all the concept form basic to
-                                    advanced. It
-                                    also provides students with an easy way to get started in a new course
-                                </td>
-                                <td>
-                                    <a href="view-more.html">View More</a>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt="">
-                                </td>
-                                <td>Reading and discussion groups</td>
-                                <td>The courses we offer are apporved and they cover all the concept form basic to
-                                    advanced. It
-                                    also provides students with an easy way to get started in a new course
-                                </td>
-                                <td>
-                                    <a href="view-more.html">View More</a>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt="">
-                                </td>
-                                <td>Presentations</td>
-                                <td>The courses we offer are apporved and they cover all the concept form basic to
-                                    advanced. It
-                                    also provides students with an easy way to get started in a new course
-                                </td>
-                                <td>
-                                    <a href="view-more.html">View More</a>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt="">
-                                </td>
-                                <td>Events</td>
-                                <td>The courses we offer are apporved and they cover all the concept form basic to
-                                    advanced. It
-                                    also provides students with an easy way to get started in a new course
-                                </td>
-                                <td>
-                                    <a href="view-more.html">View More</a>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt="">
-                                </td>
-                                <td>Activities</td>
-                                <td>The courses we offer are apporved and they cover all the concept form basic to
-                                    advanced. It
-                                    also provides students with an easy way to get started in a new course
-                                </td>
-                                <td>
-                                    <a href="view-more.html">View More</a>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td>
-                                    <img src="images/uploaded-images/lessonsimage/event-1.png" alt="">
-                                </td>
-                                <td>Specializations</td>
-                                <td>The courses we offer are apporved and they cover all the concept form basic to
-                                    advanced. It
-                                    also provides students with an easy way to get started in a new course
-                                </td>
-                                <td>
-                                    <a href="view-more.html">View More</a>
-                                </td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-
-                </div>
+         </div>
+      </section>
+      <!--========================
+         TAB PAGE SECTION
+         ==========================-->
+      <section>
+         <div class="events-tab-page">
+            <div class="event-tab-page-tab-buttons">
+               <button class="tab-page-btn" onclick="openTab(event, 'presentation')">Presentations</button>
+               <button class="tab-page-btn" onclick="openTab(event, 'workshops')">Workshops</button>
+               <button class="tab-page-btn" onclick="openTab(event, 'events')">Events</button>
+               <button class="tab-page-btn" onclick="openTab(event, 'activities')">Activities</button>
             </div>
-        </section>
-        <section>
-            <div class="frequently-ask-questions">
-                <div class="services-title-section">
-                    <p>Frequently Asked Questions</p>
-                </div>
-                <div class="accordion">
-                    <div class="accordion-text">
-
-                        <ul class="faq-text">
-                            <li>
-                                <div class="question-arrow">
-                                    <span class="question">Introduction</span>
-                                    <i class="fa-solid fa-chevron-down arrow"></i>
-                                </div>
-                                <p>This course will take you through eight tasks leading up to one main project:
-                                    user research, personas, wireframes and more for a vocabulary learning app. A
-                                    learning experience that’s as rigorous and in sync with the industry as it is
-                                    suited to beginners and upskillers alike.</p>
-                                <span class="line"></span>
-                            </li>
-                            
-                            <li>
-                                <div class="question-arrow">
-                                    <span class="question">Assets and documentation</span>
-                                    <i class="fa-solid fa-chevron-down arrow"></i>
-                                </div>
-                                <p>Introduction video</p>
-                                <p>Presentation slide</p>
-                                <p>Guide book</p>
-                                <p>Section Quiz</p>
-                                <span class="line"></span>
-                            </li>
-
-                            <li>
-                                <div class="question-arrow">
-                                    <span class="question">Assets and documentation</span>
-                                    <i class="fa-solid fa-chevron-down arrow"></i>
-                                </div>
-                                <p>Introduction video</p>
-                                <p>Presentation slide</p>
-                                <p>Guide book</p>
-                                <p>Section Quiz</p>
-                                <span class="line"></span>
-                            </li>
-
-                            <li>
-                                <div class="question-arrow">
-                                    <span class="question">Assets and documentation</span>
-                                    <i class="fa-solid fa-chevron-down arrow"></i>  
-                                </div>
-                                <p>Introduction video</p>
-                                <p>Presentation slide</p>
-                                <p>Guide book</p>
-                                <p>Section Quiz</p>
-                                <span class="line"></span>
-                            </li>
-                            <li>
-                                <div class="question-arrow">
-                                    <span class="question">Assets and documentation</span>
-                                    <i class="fa-solid fa-chevron-down arrow"></i>
-                                </div>
-                                <p>Introduction video</p>
-                                <p>Presentation slide</p>
-                                <p>Guide book</p>
-                                <p>Section Quiz</p>
-                                <span class="line"></span>
-                            </li>
-
-                            <li>
-                                <div class="question-arrow">
-                                    <span class="question">Course chapters</span>
-                                    <i class="fa-solid fa-chevron-down arrow"></i>
-                                </div>
-                                <p>Introduction to UX & Design Thinking</p>
-                                <p>Presenting Your Work</p>
-                                <p>User Research</p>
-                                <p>User Personas</p>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
+            <div class="event-page-filter">
+               <button id="btn2" class="toggle-btn">All</button>
+               <button id="btn1" class="toggle-btn">Today</button>
+               <button id="btn3" class="toggle-btn">Tomorrow</button>
+               <button id="btn4" class="toggle-btn">This week</button>
+               <button id="btn5" class="toggle-btn">This weekend</button>
+               <button id="btn6" class="toggle-btn">Next week</button>
+               <button id="btn7" class="toggle-btn">This month</button>
+               <button id="btn8" class="toggle-btn">Next month</button>
             </div>
-        </section>
-    </main>
-    <!--============================
+            <div class="event-page-grid">
+               <div class="events-page-grid-left-side">
+                  <div class="events-page-left-filter">
+                     <form action="">
+                        <div class="events-filter-columns">
+
+                           <div class="month-filter">
+                              <label for="month">Month</label>
+                              <select>
+                                 <option selected="selected" class="option">Select</option>
+                                 <option class="option">January</option>
+                                 <option class="option">February</option>
+                                 <option class="option">March</option>
+                                 <option class="option">April</option>
+                                 <option class="option">June</option>
+                                 <option class="option">July</option>
+                                 <option class="option">August</option>
+                                 <option class="option">September</option>
+                              </select>
+                           </div>
+                           <div class="category-filter">
+                              <label for="category">Category</label>
+                              <select>
+                                 <option selected="selected" class="option">Select</option>
+                                 <option class="option">E-learning</option>
+                                 <option class="option">Videogames</option>
+                                 <option class="option">I+D</option>
+                                 <option class="option">Design</option>
+                                 <option class="option">Photography</option>
+                                 <option class="option">Typography</option>
+                                 <option class="option">UX Design</option>
+                                 <option class="option">Accessibility</option>
+                                 <option class="option">Social Media</option>
+                                 <option class="option">Education</option>
+                                 <option class="option">Virtual reality</option>
+                                 <option class="option">Augmented reality</option>
+                                 <option class="option">Cinema</option>
+                              </select>
+                           </div>
+                           <div class="other-filter">
+                              <div class="no-online">
+                                 <input id="radio-btn1" type="radio" name="location" value="pyhsical" id="">
+                                 <label for="pyhsical">Online Free</label>
+                              </div>
+                              <div class="online">
+                                 <input id="radio-btn2" type="radio" name="location" value="online" id="">
+                                 <label for="online">Online</label>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <div class="events-page-grid-right-side">
+                  <div id="presentation" class="tabcontent">
+                     <!-- Content for Presentation tab -->
+                     <div class="card-row">
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+
+
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+
+
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+                     </div>
+
+
+                  </div>
+
+                  <div id="workshops" class="tabcontent">
+                     <!-- Content for Workshops tab -->
+                     <div class="card-row">
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  <div id="events" class="tabcontent">
+                     <!-- Content for Events tab -->
+                     <div class="card-row">
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+                        <div class="events-card">
+                           <div class="events-card-grid">
+                              <div class="date-section">
+                                 <p>6</p>
+                                 <span>Jun</span>
+                                 <i onclick=" openGoogleCalendar()" class="fas fa-calendar-plus"></i>
+                                 <span class="cal-tooltip">Add to Calendar</span>
+                              </div>
+                              <div class="event-name">
+                                 <p>Social media in educational environments</p>
+                                 <span>Friday 20th - 21st</span>
+                                 <span>Online</span>
+                                 <a href="view-more.html">View More</a>
+                              </div>
+                              <div class="event-image">
+                                 <img src="images/uploaded-images/lessonsimage/event-1.png
+" alt="" width="150">
+                              </div>
+                           </div>
+                           <div class="event-features">
+                              <span>E-Learning</span>
+                              <span>Accessability</span>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+
+                  <div id="activities" class="tabcontent">
+                     <!-- Content for Activities tab -->
+                     <div class="card-row">
+                        <div></div>
+                        <div></div>
+                        <div class="empty-tab">
+                           <div class="exclamation-icon">
+                              <i class="fa fa-exclamation" aria-hidden="true"></i>
+                           </div>
+                           <span>No result</span>
+                           <p>
+                              There are no activities scheduled for the next few months.
+                              Sorry for the inconvenience.</p>
+                        </div>
+
+                        <div></div>
+                        <div></div>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+         </div>
+
+      </section>
+   </main>
+   <!--============================
    FOOTER SECTION
    ============================ -->
-    <footer id="footer" class="footer">
-        <div class="copyright">
-            <p> © Copyright <strong>Deval Academy</strong>. All Rights Reserved</p>
-        </div>
+   <footer id="footer" class="footer">
+      <div class="copyright">
+         <p> © Copyright <strong>Deval Academy</strong>. All Rights Reserved</p>
+      </div>
 
-        <div class="credits">
-            <p> Designed by <a href="https://youtube.com/@devalentineomonya" target="_blank">Valentine Omonya</a></p>
-        </div>
-    </footer>
-    <script src="js/script.js"></script>
-    <script>
-        let li = document.querySelectorAll(".faq-text li");
-           for (var i = 0; i < li.length; i++) {
-               li[i].addEventListener("click", (e) => {
-                   let clickedLi;
-                   if (e.target.classList.contains("question-arrow")) {
-                       clickedLi = e.target.parentElement;
-                   } else {
-                       clickedLi = e.target.parentElement.parentElement;
-                   }
-       
-                   // Close all accordions
-                   li.forEach(item => {
-                       if (item !== clickedLi) {
-                           item.classList.remove("active");
-                       }
-                   });
-       
-                   // Toggle the clicked accordion
-                   clickedLi.classList.toggle("active");
-               });
-           }
-       
-           </script>
+      <div class="credits">
+         <p> Designed by <a href="https://youtube.com/@devalentineomonya" target="_blank">Valentine Omonya</a></p>
+      </div>
+   </footer>
+   <script src="js/script.js"></script>
 </body>
 
 </html>
