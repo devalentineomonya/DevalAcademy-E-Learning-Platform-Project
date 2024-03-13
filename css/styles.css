@@ -19,7 +19,6 @@
   font-family: "Poppins", "Arial", "Helvetica", "sans-serif";
   list-style: none;
   box-sizing: border-box;
-  
 }
 
 .nav-menu {
@@ -116,7 +115,7 @@ HERO SECTION
 */
 .hero,
 .events-hero {
-  background-image: url("/images/website-images/header-home.png");
+  background-image: url("images/website-images/header-home.png");
   height: 500px;
 
   background-position: center;
@@ -131,7 +130,7 @@ main {
 }
 
 .events-hero {
-  background-image: url("/images/website-images/header-events.png");
+  background-image: url("images/website-images/header-events.png");
   height: 550px;
 }
 
@@ -700,7 +699,7 @@ EVENTS TAB CONTENT CARD
 
 }
 
-.date-section i:hover+.cal-tooltip {
+.date-section i:hover + .cal-tooltip {
   opacity: 1;
 }
 
@@ -1267,9 +1266,11 @@ MEDIA QUERIES
   .services-section {
     margin-left: 5px;
   }
-.events-page-grid{
-  padding:0 5px;
-}
+
+  .events-page-grid {
+    padding: 0 5px;
+  }
+
   .services-section {
     margin-right: 10px;
   }
@@ -1282,9 +1283,10 @@ MEDIA QUERIES
   .services-body tr td a {
     font-size: 8px;
   }
-.services-body tr th {
-  text-align: center;
-}
+
+  .services-body tr th {
+    text-align: center;
+  }
 
   .services-body td:first-child {
     text-align: start;
@@ -1303,9 +1305,9 @@ MEDIA QUERIES
 
   }
 
-.event-tab-page-tab-buttons{
-  margin: 10px 10px 0 10px;
-}
+  .event-tab-page-tab-buttons {
+    margin: 10px 10px 0 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1394,24 +1396,38 @@ EVENTS HERO SECTION CARD
   .back-to-previous {
     margin-left: 30px;
   }
+
   .events-page-grid-left-side {
     display: none;
   }
+
   .event-image img {
     margin-right: 0;
   }
+
   .events-card {
-  padding-top: 5px;
-  padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
-  .event-name p{
+
+  .event-name p {
     font-size: 16px;
   }
- .date-section{
-  width: 30px;
-  text-align: start;
- }
- .events-card-grid{
-  grid-template-columns: 50px 1fr 1fr;
- }
+
+  .date-section {
+    width: 30px;
+    text-align: start;
+  }
+
+  .events-card-grid {
+    grid-template-columns: 50px 1fr 1fr;
+  }
+
+  .current-course-page {
+    padding: 30px 10px 10px 10px;
+  }
+
+  .back-to-previous {
+    margin-left: 10px;
+  }
 }

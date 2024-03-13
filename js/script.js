@@ -1,11 +1,6 @@
-// 
-// SIDE MENU
-// 
+// NAVIGATION MENU
+const hamburger = document.querySelector(".nav-menu");
 const navList = document.querySelector(".nav-links");
-function openSideMenu() {
-    navList.classList.toggle('open')
-}
-
 // WRAPPER CLASSES
 const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
@@ -14,6 +9,12 @@ const arrowBtns = document.querySelectorAll(".wrapper i");
 const carouselChildrens = [...carousel.children];
 // TOGGLE BUTTONS
 const buttons = document.querySelectorAll(".toggle-btn");
+// 
+// SIDE MENU
+// 
+function openSideMenu() {
+    navList.classList.toggle('open')
+}
 
 
 // 
@@ -139,14 +140,4 @@ document.querySelector('.tab-page-btn').classList.add('current');
 document.getElementById('presentation').classList.add('active');
 document.getElementById('overview').classList.add('active');
 document.getElementById('guests').classList.add('active');
-
-// 
-// USER DROPDOWN MENU
-// 
-
-const showMenu = document.getElementById('showMenu');
-function showDropdownMenu() {
-    const userDropdown = document.getElementsByClassName('user-menu-popup');
-    userDropdown.classList.add('active')
-};
 
