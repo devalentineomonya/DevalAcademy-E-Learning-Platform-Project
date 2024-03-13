@@ -1065,9 +1065,13 @@ ABOUT PAGE SECTIONS
 
 .collaborators-icons {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
+.collaborators-icons i{
+  font-size: 100px;
+  color: #f6f6f6;
+}
 .discovery-section {
   display: flex;
   margin-top: 100px;
